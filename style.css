@@ -1,0 +1,29 @@
+body {
+    background: rgb(56, 56, 56); /* Irá deixar a cor de fundo para todos os componentes de azul */
+    font: normal 15pt Arial; /* Altera a fonte para Arial e seleciona o tamanho 15pt */
+}
+
+header {
+    color: white; /* Modifica a cor das letras do header para branco */
+    text-align: center; /* Alinha horizontalmente para o centro da tela */
+}
+
+section {
+    background: white; /* Deixa a cor de fundo da <section> branca */
+    border-radius: 10px; /* Arredonda a borda da <section>, para não ficar algo reto, em 10 pixeis */
+    padding: 15px; /* Irá dar espaço vertical para o texto, deixando ele menos espremido */
+    width: 1004px; /* Delimita horizontalmente onde a section acaba */
+    margin: auto; /* Centraliza horizontalmente a section */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336); /* Adiciona sombra à section com 5 pixeis de deslocamento lateral,
+     5 pixeis de deslocamento vertical e 10 pixeis de espalhamento, e seleciono a cor para black diminuindo sua opacidade */
+}
+
+footer {
+    color: white; /* Modifica a cor das letras do footer para branco */
+    text-align: center; /* Alinha horizontalmente para o centro da tela */
+    font-style: italic; /* Modifica a letra do footer para itálico */
+}
+
+div {
+    text-align: center;
+}

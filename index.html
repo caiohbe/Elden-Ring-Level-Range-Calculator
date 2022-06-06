@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ER Level Matchmaking</title> 
+    <link rel="stylesheet" href="style.css">
+<!-- Ao digitar "link" é recomendado diversos tipos de link. Sendo um deles de css
+O link de css irá vincular um arquivo css externo à esse documento.html. -->
+</head> 
+<body> 
+    <header>
+        <h1>Elden Ring Level Range Calculator</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Level: <input type="text" name="lvltxt" id="lvltxt" maxlength="3">
+                Weapon Upgrade: <input type="text" name="wpup" id="wpup" maxlength="2">
+                Upgrade Type:
+                <input type="radio" name="wptype" id="regular" checked>
+                <label for="wptype">Regular</label>
+                <input type="radio" name="wptype" id="somber">
+                <label for="wptype">Somber</label>
+                <input type="button" value="Calculate" onclick="calculate()">
+            </p>
+            <p>
+                Keep in mind: Upgraded weapons given by NPCs affects your Weapon Upgrade Matchmaking
+            </p> 
+            <p>
+                Your Weapon Upgrade Matchmaking is defined by the highest weapon you have upgraded so far
+            </p>
+        </div>
+        <div id="res">
+            
+        </div>
+    </section>
+    <script src="script.js"></script> <!-- Ao digitar "script" é recomendado o "script:src", que irá 
+    assim como o link, adicionar uma página própria do javascript para ser alterada separadamente-->
+</body>
+</html>
